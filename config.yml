@@ -1,61 +1,189 @@
-#
+##############################################################################
 # config.yml
+# 
+# Author: bsy6766
+# Plugin page: http://www.spigotmc.org/resources/head-manager.4377/
+# Version: 1.4.5
+# 
+# 
+# 
+# 
+##############################################################################
 #
+# serverLocale
+# 	true: Force plugin language to locale.yml
+# 	false: First try to display plugin messages in player's Minecraft language
+# 			setting(currently supports English, Dutch, Korean). Then if uses
+# 			locale.yml if player uses unsupported language.
+#	Recommended setting: true
+# 
 serverLocale: true 
 #
-# server name
-# Please use English only. 
+# server_name
+# 	Set your server name. This will be used to display your server name in
+# 	present head block lore. Please use English only. Else, it won't display
+# 	properly. 
+# 
 server_name: SET_YOUR_SERVER_NAME_HERE
 #
-# cache
-# set true to use skin cache.
+# Caching
+# 	use_skin_cache
+# 		true: Enables skin caching. This will save player's profile data(including
+# 				Name, UUID, and skin data) in skinCache.yml. It is good practice to
+# 				use cahcing since Mojang wants us to do so. Caching might take some 
+# 				time to initialize (depends on the size of player data, Mojang's 
+# 				server status, internet connection, and your server's computer spec),
+# 				but once you done it, player heads' skin will load and show up way 
+# 				more faster compared to not using it.
+# 		false: Disbale skin chacing. Download player's data and display it's skin
+# 				dynamically. Due to Mojang's policy, server might fail to download
+# 				player skin. 
+# 
 use_skin_cache: false
-# set true if you want to save some players's skin cache that who weren't cached yet 
+# 
+# fill_missing_cache_on_load
+# 	true: Let plugin add missing player data in to skinCache.yml while loading plugin.
+# 	false: Ignore missing player data
+# 
 fill_missing_cache_on_load: false
 #
-# creative mode
-# These two settings are for creative mode
-# set true if you want to drop heads.
+# Creative mode
+# 	These two settings are for creative mode
+# 
+# creative_drop_head
+# 	true: Creative mode player will get heads by drop(killing entity, breaking block, etc)
+# 	false: Creative mode player will not get any heads
+# 
 creative_drop_head: false
-# set true if you want to retrieve heads back when creative mode player break heads.
+# 
+# creative_drop_on_break
+# 	true: Creative mode player will retrieve heads back when they break heads.
+# 	false: Creative mode player will not retrieve heads back when they break heads.
+# 
 creative_drop_on_break: false
 #
-#
-# drop effect
+# Drop Effects
+# 
+# particle_on_drop
+# 	true: Display particle when head drops
+# 	false: Do not display particle when head drops
+# 
 particle_on_drop: true
+# 
+# sound_on_drop
+# 	true: Play sound when head drops
+# 	false: Do not play sound when head drops
+# 
 sound_on_drop: true
+# 
+# sound_type
+# 	Set type of sound you want to play when head drops
+# 	You can find sound name on below link
+#	https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# 
 sound_type: SLIME_ATTACK
+# 
+# msg_on_drop
+# 	true: display 'drop_msg' on chat when head drops
+# 	false: Do not display 'drop_msg' on chat when head drops
+# 
 msg_on_drop: true
+# 
+# drop_msg
+# 	Set message that will display on chat when head drops
+# 
 drop_msg: "*Plop*"
 #
-# data
+# Head block data
+#
+# store_head_info
+# 	true: Plugin will save head's name, type, lore, and price when player places heads. 
+# 			Player's will be able to get exact same haeds with same name, type, lore and
+# 			price when they break it.
+# 	false: Do not save head data.
+# 
 store_head_info: true
 #
-# Vault
+# Vault / Economy
+# 
+# using_vault:
+# 	true: Use Vault plugin to enable economy and price feature. (Requires Vault plugin)
+# 	false: Disables economy
+# 
 using_vault: false
-
-# numbering system
-# true: enable numbering / false: disable numbering
+# 
+# Numbering system
+# 
+# 	Numbering is a system where counts the number of head drops. When it's enabled,
+# 	it will add the number in either head's name or lore. 	
+# 
+# 	true: enable numbering 
+# 	false: disable numbering
+# 
 numbering: true
-# true: set numbering as lore in item / false: set numbering as head name
+# 
+# number_in_lore
+# 	true: set numbering as lore in item
+# 	false: set numbering as head name
+# 
 number_in_lore: true
-
+# 
 # time lore
-# Set true if you want to add time when the head dropped on item lore.
+# 	true: Add time when head dropped in lore
+#	false: Do not add time when head dropped in lore
+# 
 time_in_lore: false
-
-# auto loot
-# true: dropped head will be added to player's inventory / false: drop head naturally.
+# 
+# Auto loot
+# 	true: dropped head will be added to player's inventory
+# 	false: drop head naturally.
+# 
 auto_loot: false
+# 
+# auto_loot_failed_msg
+# 	Set message when auto loot system fail to add item in player's inventory due to full
+# 
 auto_loot_failed_msg: Inventory is full. Dropping head near to you.
-
-# Multi-inv plugin. Set true if you are using it.
+# 
+# Multi-inv plugin
+# 	If you use Multi-verse and Multi-inv plugin, heads will change to 'null' head
+# 	when players log off and log in back. This happens because Multi-inv plugin
+# 	doesn't care about custom items that has extra data than vanilla minecraft has.
+# 
+# null_recover
+# 	true: Player's head will be recovered
+# 	false: Heads will remain null.
+# 
+# 	Note: If you use Multi-inv plugin, I recommend you to use. Else, leave it as false
+# 
 null_recover: false
-
-# bank system
-# set true if you want to receive money from player when they sell heads on shop
+# 
+# Bank system
+# 
+# set_bank_account
+# 	true: Bank system will receive money from player when they purchases heads, and
+# 			pay back to player when player sells head in shop. 
+# 	false: Disable bank system
+# 
 set_bank_account: false
-# set the account name that will receive money.
+# 
+# bank_account_name
+# 	Set bank player(usually admin)'s name. (ex. bsy6766).
+# 
+# !Warning!
+# 	Sometimes, economy plugins(like essential) doesn't recognize existing player's name
+# 	and create new player data based on the name you write here. Since this is caused by
+# 	Vault and other economy plugin, I can't handle with it. Make sure your server has
+# 	player data that matches the name.
+# 
 bank_account_name: PLEASE_SET_YOUR_BANK_ACCOUNT_HERE
-
+# 
+# 
+# 
+# 
+# 
+# reset_number_data
+# 	This will be removed on future patch and it will remain true always
+# 
 reset_number_data: true
+# 
