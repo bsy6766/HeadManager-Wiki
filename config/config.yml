@@ -1,0 +1,61 @@
+#
+# config.yml
+#
+serverLocale: true 
+#
+# server name
+# Please use English only. 
+server_name: SET_YOUR_SERVER_NAME_HERE
+#
+# cache
+# set true to use skin cache.
+use_skin_cache: false
+# set true if you want to save some players's skin cache that who weren't cached yet 
+fill_missing_cache_on_load: false
+#
+# creative mode
+# These two settings are for creative mode
+# set true if you want to drop heads.
+creative_drop_head: false
+# set true if you want to retrieve heads back when creative mode player break heads.
+creative_drop_on_break: false
+#
+#
+# drop effect
+particle_on_drop: true
+sound_on_drop: true
+sound_type: SLIME_ATTACK
+msg_on_drop: true
+drop_msg: "*Plop*"
+#
+# data
+store_head_info: true
+#
+# Vault
+using_vault: false
+
+# numbering system
+# true: enable numbering / false: disable numbering
+numbering: true
+# true: set numbering as lore in item / false: set numbering as head name
+number_in_lore: true
+
+# time lore
+# Set true if you want to add time when the head dropped on item lore.
+time_in_lore: false
+
+# auto loot
+# true: dropped head will be added to player's inventory / false: drop head naturally.
+auto_loot: false
+auto_loot_failed_msg: Inventory is full. Dropping head near to you.
+
+# Multi-inv plugin. Set true if you are using it.
+null_recover: false
+
+# bank system
+# set true if you want to receive money from player when they sell heads on shop
+set_bank_account: false
+# set the account name that will receive money.
+bank_account_name: PLEASE_SET_YOUR_BANK_ACCOUNT_HERE
+
+reset_number_data: true
