@@ -1,0 +1,55 @@
+#shop yml
+
+#purchase node. Set child node to true to enable each tab, false to disable.
+purchase:
+    enable:
+        food: true
+        device: true
+        misc: true
+        alphabet: true
+        interior: true
+        color: true
+        block: true
+        mob: true
+        game: true
+        character: true
+        pokemon: true
+        easter: true
+        mhf: true
+        onlineplayer: true
+        offlineplayer: true
+        #server: true
+#return node. Set child node to true to enable return
+return:
+    enable:
+        custom: true
+        mhf: false
+        player: false
+    
+#set true if you want to sell wither skeleton head in MHF tab. Beware that player will able to spawn wither if they can buy off from shop.
+sell_witherskel_head: false
+
+#Tab Names. make sure you save this file with proper encoding base on your languages.
+Food_tabName: "Food Heads"
+Device_tabName: "Device Heads"
+Misc_tabName: "Misc Heads"
+Alphabet_tabName: "Alphabet Heads"
+Interior_tabName: "Interior Heads"
+Color_tabName: "Color Heads"
+Block_tabName: "Block heads"
+Mobs_tabName: "Mobs Heads"
+Game_tabName: "Game Heads"
+Character_tabName: "Chracter Heads"
+Pokemon_tabName: "Pokemon Heads"
+Easter_tabName: "Easter Heads"
+MHF_tabName: "MHF Heads"
+OnlinePlayer_tabName: "Players(ONLINE) Heads"
+OfflinePlayer_tabName: "Players(OFFLINE/ALL) Heads"
+to_menu_iconName: "To Menu"
+to_first_page_iconName: "To First Page"
+to_last_page_iconName: "To Last Page"
+to_next_page_iconName: "To Next Page"
+to_prev_page_iconName: "To Prev Page"
+close_shop_iconName: "Close Shop"
+purchase_buy_iconName: "Purchase/Buy Heads"
+return_sell_iconName: "Return/Sell Heads"

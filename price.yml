@@ -1,0 +1,154 @@
+#################################################################
+#
+# Price.yml
+#
+# Each tab and each head on head shop can have specific price on both purchase and return.
+# You will see each tab name and two child node called "purchase" and "return". 
+# Each responses for purchase price and return price of the heads in the specific tab. 
+# In "purchase" node, you will see "basePrice" and "variable" node. 
+# "basePrice" node will be the base price of heads in the corresponding tab. 
+# "variable" node will be the place where you can explicitly set the additional(Can be negative value, but total head price can't go below 0) price of specific head
+# For instance, if you set "Food" tab's "basePrice" to 5000 and set some arbitrary head's price (let's say 'Apple') to 500, then Apple's price for purchase will be 5500. \
+# Works same with "return" node, which will be return cost.
+# In game, you can check head price on head item's lore.
+# Heads that are once purchased or obtained will keep the price even you change price.yml because price will be signed in head item's data.
+# Heads that were purchased and obtained before this update will have return cost of 0. 
+# For dropped heads, check "drop" node in price.yml to set the price. 
+# To prevent player farming money by selling heads, set this to 0. 
+# Head name node must match the head's name. (ie. "Blue Wool" head matches "Blue Wool" node, but not with "BlueWool")
+#
+#################################################################
+Food:
+    purchase:
+        basePrice: 5000
+        variable:
+            Nutella: 0
+    return:
+        basePrice: 2500
+        variable:
+            Nutella: 0
+Device:
+    purchase:
+        basePrice: 5000
+        variable:
+            Clock: 0
+    return:
+        basePrice: 2500
+        variable:
+            Clock: 0
+Misc:
+    purchase:
+        basePrice: 5000
+        variable:
+            GoldPot: 0
+    return:
+        basePrice: 2500
+        variable:
+            GoldPot: 0
+Alphabet:
+    purchase:
+        basePrice: 5000
+        variable:
+            A: 0
+    return:
+        basePrice: 2500
+        variable:
+            A: 0
+Interior:
+    purchase:
+        basePrice: 5000
+        variable:
+            Potted Rose Plant: 0
+    return:
+        basePrice: 2500
+        variable:
+            Potted Rose Plant: 0
+Color:
+    purchase:
+        basePrice: 5000
+        variable:
+            Sky Blue: 0
+    return:
+        basePrice: 2500
+        variable:
+            Sky Blue: 0
+Block:
+    purchase:
+        basePrice: 5000
+        variable:
+            Blue Wool: 0
+    return:
+        basePrice: 2500
+        variable:
+            Blue Wool: 0
+Mob:
+    purchase:
+        basePrice: 5000
+        variable:
+            Herobrine: 0
+    return:
+        basePrice: 2500
+        variable:
+            Herobrine: 0
+Game:
+    purchase:
+        basePrice: 5000
+        variable:
+            Beachball: 0
+    return:
+        basePrice: 2500
+        variable:
+            Beachball: 0
+Character:
+    purchase:
+        basePrice: 5000
+        variable:
+            Zoidberg: 0
+    return:
+        basePrice: 2500
+        variable:
+            Zoidberg: 0
+Pokemon:
+    purchase:
+        basePrice: 5000
+        variable:
+            Magikarp: 0
+    return:
+        basePrice: 2500
+        variable:
+            Magikarp: 0
+Easter:
+    purchase:
+        basePrice: 5000
+        variable:
+            Chocolate Egg: 0
+    return:
+        basePrice: 2500
+        variable:
+            Chocolate Egg: 0
+MHF:
+    purchase:
+        basePrice: 5000
+        variable:
+            MHF_Cow: 0
+    return:
+        basePrice: 2500
+        variable:
+            MHF_Cow: 0
+Player:
+    purchase:
+        basePrice: 5000
+        variable:
+            Sample: 0
+    return:
+        basePrice: 2500
+        variable:
+            Sample: 0
+Drop:
+    return:
+        basePrice: 0
+        variable:
+            MHF_Wolf: 0
+            MHF_Cake: 0
+            Zombie: 0
+            WitherSkeleton: 0

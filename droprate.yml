@@ -1,0 +1,125 @@
+#######################################################################
+#
+# droprate.yml
+# This yml manages head drop, drop effect, and drop rate
+# All setttings ends with "_droprate" must be between 0 and 1
+#
+#
+#######################################################################
+
+# set true if you want to enable head drops on break, craft, kill, etc
+drop_head: true
+
+# base rate
+base_rate: 0
+
+# stable tool bonus
+unbreaking_bonus: 10.0
+
+# looting rate
+looting_bonus: 10.0
+
+# undead bonus
+smite_bonus: 10.0
+
+# bug bonus
+arthropods_bonus: 10.0
+
+# damange bonus
+sharpness_bonus: 10.0
+
+# block bonus
+fortune_bonus: 10.0
+silktouch_bonus: 10.0
+efficiency_bonus: 10.0
+
+#player
+player_droprate: 30.0
+
+#defualt mob droprate
+zombie_droprate: 0.1
+skeleton_droprate: 0.1
+witherskeleton_droprate: 2.5
+creeper_droprate: 0.1
+
+#neutral entity droprate
+wolf_droprate: 0.1
+pig_droprate: 0.1
+cow_droprate: 0.1
+chicken_droprate: 0.1
+sheep_droprate: 0.1
+squid_droprate: 0.1
+ocelot_droprate: 0.1
+villager_droprate: 0.1
+
+#hostile entity droprate
+enderman_droprate: 0.1
+slime_droprate: 0.1
+spider_droprate: 0.1
+cavespider_droprate: 0.1
+blaze_droprate: 0.1
+wither_droprate: 10.0
+ghast_droprate: 0.1
+lavaslime_droprate: 0.1
+pigzombie_droprate: 0.1
+mushroomcow_droprate: 0.1
+golem_droprate: 0.1
+
+#TNT droprate
+tnt_droprate: 0.1
+#tnt_type = 0~100. ex) 40 means 40% chance to get MHF_TNT1 and 60% change to get MHF_TNT2
+tnt_type: 50
+
+#Wood type droprate
+wood_head_droprate: 0.01
+chest_droprate: 0.1
+
+#Plant type droprate
+melon_droprate: 0.1
+pumpkin_droprate: 0.1
+cactus_droprate: 0.1
+
+#coconut type droprate
+coconutB_droprate: 0.1
+coconutG_droprate: 0.1
+coconut_type: 50
+
+#food type droprate
+apple_droprate: 0.1
+cake_droprate: 0.1
+
+#Presetn type droprate
+present_droprate: 0.01
+present_type: 50
+
+# Present system
+# Set true if you want all kind of solid block drop present heads. Else, false.
+enable_open_present: true
+
+# Green present box head award.
+# You can remove or add items by following the format.
+# Item name must follow Spigot item name. Check out here. 
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Number means the amount of item.
+green_present_award:
+- "DIAMOND, 1"
+- "IRON_INGOT, 5"
+- "BLAZE_ROD, 1"
+- "GOLD_INGOT, 3"
+
+red_present_award:
+- "DIAMOND_PICKAXE, 1"
+- "DIAMOND_SWORD, 1"
+- "DIAMOND_SPADE, 1"
+- "DIAMOND_HOE, 1"
+- "DIAMOND_AXE, 1"
+- "DIAMOND_HELMET, 1"
+- "DIAMOND_CHESTPLATE, 1"
+- "DIAMOND_LEGGINGS, 1"
+- "DIAMOND_BOOTS, 1"
+
+# Easter event
+# Set true if you want to drop easter eggs when player skill bunny/rabbit
+easter_event: false
+# The droprate of the egg heads.
+egg_droprate: 0.5
