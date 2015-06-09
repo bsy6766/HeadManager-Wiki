@@ -1,4 +1,4 @@
-# HeadManager-Wiki
+# HeadManager-Wiki ([goto Wiki page](https://github.com/bsy6766/HeadManager-Wiki/wiki))
 
 ## Latest versions
 ### Spigot 1.8
