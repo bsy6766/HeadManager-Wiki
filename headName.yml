@@ -1,26 +1,3 @@
-#Tab Names
-Food_tabName: "Food Heads"
-Device_tabName: "Device Heads"
-Misc_tabName: "Misc Heads"
-Alphabet_tabName: "Alphabet Heads"
-Interior_tabName: "Interior Heads"
-Color_tabName: "Color Heads"
-Block_tabName: "Block heads"
-Mobs_tabName: "Mobs Heads"
-Game_tabName: "Game Heads"
-Character_tabName: "Chracter Heads"
-Pokemon_tabName: "Pokemon Heads"
-Easter_tabName: "Easter Heads"
-MHF_tabName: "MHF Heads"
-OnlinePlayer_tabName: "Players(ONLINE) Heads"
-OfflinePlayer_tabName: "Players(OFFLINE/ALL) Heads"
-to_menu_iconName: "To Menu"
-to_first_page_iconName: "To First Page"
-to_last_page_iconName: "To Last Page"
-to_next_page_iconName: "To Next Page"
-to_prev_page_iconName: "To Prev Page"
-close_shop_iconName: "Close Shop"
-
 #Food
 Nutella: Nutella
 Vegemite: Vegemite
@@ -74,7 +51,7 @@ Ham: Ham
 MushroomStew: Mushroom Stew
 SweetRoll: Sweet Roll
 IceCream: Ice Cream
-Orange: Orange
+Tangerine: Tangerine
 Lemon: Lemon
 Plum: Plum
 Salad: Salad
@@ -811,6 +788,27 @@ BionicleLewaNuva: Bionicle Lewa Nuva
 BionicleGaliNuva: Bionicle Gali Nuva
 BionicleKopakaMata: Bionicle Kopaka Mata
 BionicleEkimuMaskMaker: Bionicle Ekimu Mask Maker
+Monk1: Monk 1
+Monk2: Monk 2
+Monk3: Monk 3
+Monk4: Monk 4
+Monk5: Monk 5
+Monk6: Monk 6
+Monk7: Monk 7
+Monk8: Monk 8
+Guard1: Guard 1
+Guard2: Guard 2
+Guard3: Guard 3
+Guard4: Guard 4
+Guard5: Guard 5
+Guard6: Guard 6
+Guard7: Guard 7
+Guard8: Guard 8
+Guard9: Guard 9
+Guard10: Guard 10
+Guard11: Guard 11
+Ultron: Ultron
+UltronDrone: Ultron Drone
 
 #Pokemon
 Magikarp: Magikarp
