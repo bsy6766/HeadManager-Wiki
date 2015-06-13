@@ -1,14 +1,46 @@
 #######################################################################
 #
 # droprate.yml
-# This yml manages head drop, drop effect, and drop rate
-# All setttings ends with "_droprate" must be between 0 and 1
+# 
+# Author: bsy6766
 #
+# Last modification: 6/10/2015
+#
+# This yml manages head drop, drop effect, and drop rate
+# All setttings ends with "_droprate" must be between 0.0 and 100.0
+#
+# For enchant bonus and base rate
+# You can raise the number as much as you want. 
+# But it can cause 100% droprate for well enchanted tool or weapon.
+#
+# Droprate equation
+#
+# Final droprate = (base_rate + SUM(enchant_bonus * enchantment level / 100)) 
+#					* droprate(entity, block, etc);
+# Ex) Scenario: Killed zombie with unbreaking 3 and sharpness 5 diamond sword,
+#				with zombie_droprate: 0.1, unbreaking_bonus: 10.0, 
+#				sharpness_bonus: 20.0, base_rate: 0 
+#		Final Zombie head droprate
+#			= (0 + (10 * 3 / 100) + (20 * 5 / 100)) * 0.1
+#			= (0 + 0.3 + 1) * 0.1
+#			= 1.3 * 0.1
+#			= 0.13 (Raised from 0.1)
+#		
+#		What's the difference between 0.13 and 0.1?
+#	 		Even the amount of the number raised with enchant bonus is low,
+#			it actually changes the total amount of head drop a lot.
 #
 #######################################################################
 
 # set true if you want to enable head drops on break, craft, kill, etc
 drop_head: true
+
+# set true if you want mobs spawned from spawner to drop heads
+# This doesn't apply to natural spawned, egg spawned, command spawned, etc. 
+# Only applies to mobs spawned on spawner block.
+# Warning: If you have a return/sell shop, players will be able to
+#			farm gold by killing mobs on spawner infinitely. 
+drop_head_from_spawner_mob: false
 
 # base rate
 base_rate: 0
@@ -16,7 +48,7 @@ base_rate: 0
 # stable tool bonus
 unbreaking_bonus: 10.0
 
-# looting rate
+# looting bonus
 looting_bonus: 10.0
 
 # undead bonus
@@ -37,59 +69,63 @@ efficiency_bonus: 10.0
 player_droprate: 30.0
 
 #defualt mob droprate
-zombie_droprate: 0.1
-skeleton_droprate: 0.1
-witherskeleton_droprate: 2.5
-creeper_droprate: 0.1
+MHF_Zombie_droprate: 0.1
+MHF_Skeleton_droprate: 0.1
+#Killing wither skeleton will have change to both drop MHF_WSkeleton head and Wither Skeleton Skull
+#This is MHF wither skeleton head that can not spawn wither. (Square shaped)
+MHF_WSkeleton_droprate: 0.1
+#2.5 is Minecraft's default droprate for wither skeleton skull. This is setting for real skull that can spawn wither. (Skull shaped)
+wither_skeleton_skull_droprate: 2.5
+MHF_Creeper_droprate: 0.1
 
 #neutral entity droprate
-wolf_droprate: 0.1
-pig_droprate: 0.1
-cow_droprate: 0.1
-chicken_droprate: 0.1
-sheep_droprate: 0.1
-squid_droprate: 0.1
-ocelot_droprate: 0.1
-villager_droprate: 0.1
+MHF_Wolf_droprate: 0.1
+MHF_Pig_droprate: 0.1
+MHF_Cow_droprate: 0.1
+MHF_Chicken_droprate: 0.1
+MHF_Sheep_droprate: 0.1
+MHF_Squid_droprate: 0.1
+MHF_Ocelot_droprate: 0.1
+MHF_Villager_droprate: 0.1
 
 #hostile entity droprate
-enderman_droprate: 0.1
-slime_droprate: 0.1
-spider_droprate: 0.1
-cavespider_droprate: 0.1
-blaze_droprate: 0.1
-wither_droprate: 10.0
-ghast_droprate: 0.1
-lavaslime_droprate: 0.1
-pigzombie_droprate: 0.1
-mushroomcow_droprate: 0.1
-golem_droprate: 0.1
+MHF_Enderman_droprate: 0.1
+MHF_Slime_droprate: 0.1
+MHF_Spider_droprate: 0.1
+MHF_Cavespider_droprate: 0.1
+MHF_Blaze_droprate: 0.1
+MHF_Wither_droprate: 10.0
+MHF_Ghast_droprate: 0.1
+MHF_Lavaslime_droprate: 0.1
+MHF_Pigzombie_droprate: 0.1
+MHF_Mushroomcow_droprate: 0.1
+MHF_Golem_droprate: 0.1
 
 #TNT droprate
-tnt_droprate: 0.1
+MHF_tnt_droprate: 0.1
 #tnt_type = 0~100. ex) 40 means 40% chance to get MHF_TNT1 and 60% change to get MHF_TNT2
 tnt_type: 50
 
 #Wood type droprate
-wood_head_droprate: 0.01
-chest_droprate: 0.1
+MHF_Wood_head_droprate: 0.01
+MHF_Chest_droprate: 0.1
 
 #Plant type droprate
-melon_droprate: 0.1
-pumpkin_droprate: 0.1
-cactus_droprate: 0.1
+MHF_Melon_droprate: 0.1
+MHF_Pumpkin_droprate: 0.1
+MHF_Cactus_droprate: 0.1
 
 #coconut type droprate
-coconutB_droprate: 0.1
-coconutG_droprate: 0.1
+MHF_CoconutB_droprate: 0.1
+MHF_CoconutG_droprate: 0.1
 coconut_type: 50
 
 #food type droprate
-apple_droprate: 0.1
-cake_droprate: 0.1
+MHF_Apple_droprate: 0.1
+MHF_Cake_droprate: 0.1
 
 #Presetn type droprate
-present_droprate: 0.01
+MHF_Present_droprate: 0.01
 present_type: 50
 
 # Present system

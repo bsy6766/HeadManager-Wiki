@@ -57,7 +57,7 @@ creative_drop_head: false
 creative_drop_on_break: false
 #
 # !!BETA!!
-# This setting is still in beta. Any bug reports will be appreciated.
+# This feature is still in beta. Any bug reports will be appreciated.
 # Set true to display head's price above the actionbar and the item name
 #
 display_price_on_action_bar: false
@@ -67,6 +67,14 @@ display_price_on_action_bar: false
 #	false: Hide name tag on dropped head
 #
 display_name_tag_on_dropped_head: false
+#
+# !!BETA!!
+# This feature is still in beta. Any bug reports will be appreciated. It can lag your server somehow.
+# Set this to true to give random head to humanoid entitiy(Zombie, Skeleton, WSkeleton, PigZombie) a head
+# when they spawn
+random_head_on_mob_spawn: false
+# Set rate of mobs equipping head on spawn. 100 means every single mob gets head on spawn.
+random_head_on_mob_rate: 0.01
 #
 # Drop Effects
 # 
@@ -137,6 +145,7 @@ number_in_lore: true
 # time lore
 # 	true: Add time when head dropped in lore
 #	false: Do not add time when head dropped in lore
+#   time format: dd-MM-yyyy HH:mm:ss
 # 
 time_in_lore: false
 # 
@@ -183,13 +192,4 @@ set_bank_account: false
 # 	player data that matches the name.
 # 
 bank_account_name: PLEASE_SET_YOUR_BANK_ACCOUNT_HERE
-# 
-# 
-# 
-# 
-# 
-# reset_number_data
-# 	This will be removed on future patch and it will remain true always
-# 
-reset_number_data: true
 # 
