@@ -4,9 +4,9 @@
 ### Spigot 1.8
 #### v1.4.2 (Not supported)
 ### Spigot 1.8.3
-#### v1.4.5
-### Spigot 1.8.4 ~ 1.8.6
-#### v1.4.5 (Recommended)
+#### v1.4.6
+### Spigot 1.8.4 ~ 1.8.7
+#### v1.4.6 (Recommended)
 
 ## Download/Purchase link
 ### http://www.spigotmc.org/resources/head-manager.4377/
