@@ -2,10 +2,10 @@
 # config.yml
 # 
 # Author: bsy6766
+# Github Wiki: https://github.com/bsy6766/HeadManager-Wiki/wiki
 # Plugin page: http://www.spigotmc.org/resources/head-manager.4377/
-# Version: 1.4.5
 # 
-# 
+# Last modification: 6/12/2015
 # 
 # 
 ##############################################################################
@@ -40,12 +40,6 @@ server_name: SET_YOUR_SERVER_NAME_HERE
 # 				player skin. 
 # 
 use_skin_cache: false
-# 
-# fill_missing_cache_on_load
-# 	true: Let plugin add missing player data in to skinCache.yml while loading plugin.
-# 	false: Ignore missing player data
-# 
-fill_missing_cache_on_load: false
 #
 # Creative mode
 # 	These two settings are for creative mode
@@ -61,6 +55,18 @@ creative_drop_head: false
 # 	false: Creative mode player will not retrieve heads back when they break heads.
 # 
 creative_drop_on_break: false
+#
+# !!BETA!!
+# This setting is still in beta. Any bug reports will be appreciated.
+# Set true to display head's price above the actionbar and the item name
+#
+display_price_on_action_bar: false
+#
+# display_name_tag_on_dropped_head
+#	true: Display name tag on dropped head
+#	false: Hide name tag on dropped head
+#
+display_name_tag_on_dropped_head: false
 #
 # Drop Effects
 # 

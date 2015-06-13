@@ -152,3 +152,9 @@ Drop:
             MHF_Cake: 0
             Zombie: 0
             WitherSkeleton: 0
+HeadFromImgUrl:
+    return:
+        basePrice: 0
+        variable:
+            #Example head created by example url
+            Pink Portal Cube: 0 
