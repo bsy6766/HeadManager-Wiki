@@ -1,0 +1,920 @@
+#Tab Names
+Food_tabName: "Food Heads"
+Device_tabName: "Device Heads"
+Misc_tabName: "Misc Heads"
+Alphabet_tabName: "Alphabet Heads"
+Interior_tabName: "Interior Heads"
+Color_tabName: "Color Heads"
+Block_tabName: "Block heads"
+Mobs_tabName: "Mobs Heads"
+Game_tabName: "Game Heads"
+Character_tabName: "Chracter Heads"
+Pokemon_tabName: "Pokemon Heads"
+Easter_tabName: "Easter Heads"
+MHF_tabName: "MHF Heads"
+OnlinePlayer_tabName: "Players(ONLINE) Heads"
+OfflinePlayer_tabName: "Players(OFFLINE/ALL) Heads"
+to_menu_iconName: "To Menu"
+to_first_page_iconName: "To First Page"
+to_last_page_iconName: "To Last Page"
+to_next_page_iconName: "To Next Page"
+to_prev_page_iconName: "To Prev Page"
+close_shop_iconName: "Close Shop"
+
+#Food
+Nutella: Nutella
+Vegemite: Vegemite
+Bread: Bread
+Cheese: Cheese
+StrawberryJam: Strawberry Jam
+Pancakes: Pancakes
+Cake: Cake
+CanofSoup: Can of Soup
+CupofMilk: Cup of Milk
+ChocolateMuffin: Chocolate Muffin
+Muffin: Muffin
+OreoSandwich: Oreo Sandwich
+Cookie: Cookie
+CandyCane: Candy Cane
+ChocolateBar: Chocolate Bar
+WhiteCholocateBar: White Cholocate Bar
+HalfCitrus: Half Citrus
+Apple: Apple
+OldApple: Old Apple
+BittenMelon: Bitten Melon
+LessStripedMelon: Less Striped Melon
+BittenWaterMelon: Bitte nWater Melon
+CarvedPumpkin: Carved Pumpkin
+Strawberry: Strawberry
+Coconut: Coconut
+Carrot: Carrot
+Tomato: Tomato
+Sugarcane: Sugarcane
+HotChocolate: Hot Chocolate
+CupofTea: Cup of Tea
+Taco: Taco
+StandingTaco: Standing Taco
+BakedPotatoe: Baked Potatoe
+Bacon: Bacon
+Fries: Fries
+ClassicHamburger: Classic Hamburger
+Baconburger: Baconburger
+Cheeseburger: Cheeseburger
+Popcorn: Popcorn
+GlassofCoca-Cola: Glass of Coca-Cola
+SushiMackerel: Sushi Mackerel
+SushiSalmon: Sushi Salmon
+PhiladelphiaRoll: Philadelphia Roll
+Riceball: Riceball
+CornBlock: Corn Block
+Coca-ColaCan: Coca-Cola Can
+GlassofBeer: Glass of Beer
+MedievalBeer: Medieval Beer
+Ham: Ham
+MushroomStew: Mushroom Stew
+SweetRoll: Sweet Roll
+IceCream: Ice Cream
+Orange: Orange
+Lemon: Lemon
+Plum: Plum
+Salad: Salad
+WhiteFrostedDonut: White Frosted Donut
+PinkFrostedDonut: Pink Frosted Donut
+ChocolateFrostedDonut: Chocolate Frosted Donut
+Turkey: Turkey
+BentoBox: BentoBox
+PlateofCookies: Plate of Cookies
+Marshmallow: Marshmallow
+FrenchSourdoughBurger: French Sourdough Burger
+Grape: Grape
+CaliforniaRoll: California Roll
+CocaColaCan: Coca Cola Can
+BowlofNoodles: Bowl of Noodles
+BowlofMacAndCheese: Bowl of Mac And Cheese
+ChineseTakeOutBox: Chinese Take Out Box
+RippedTomato: Ripped Tomato
+Mandarin: Mandarin
+GreenApple: Green Apple
+Lettuce: Lettuce
+PurpleGrapes: Purple Grapes
+GreenGrapes: Green Grapes
+RedGrapes: Red Grapes
+Pie: Pie
+CherryPie: CherryPie
+Cabbage: Cabbage
+PeanutButter: PeanutButter
+GrapeJelly: GrapeJelly
+VanillaIceCream: VanillaIceCream
+LemonIceCream: LemonIceCream
+ChocolateIceCream: ChocolateIceCream
+ChocolateStrawberry: Chocolate Strawberry
+Pepsi: Pepsi
+MountainDew: Mountain Dew
+Fanta: Fanta
+MelloYello: Mello Yello
+Sprite: Sprite
+
+#Devices
+Clock: Clock
+GoldenClock: Golden Clock
+AntiqueClock: Antique Clock
+DarkGamecube: Dark Gamecube
+Gamecube: Gamecube
+SecurityCamera: Security Camera
+Camera: Camera
+Speaker: Speaker
+Headlight: Headlight
+CeilingLamp: Ceiling Lamp
+Microwave: Microwave
+Computer: Computer
+ComputerDos: Computer Dos
+Monitor: Monitor
+ComputerMonitor: Computer Monitor
+OldRadio: Old Radio
+Computer3: Computer3
+DarkMonitor: Dark Monitor
+Toaster: Toaster
+GoldenToaster: Golden Toaster
+Camera: Camera
+Telephone: Telephone
+OldCamera: Old Camera
+Lantern: Lantern
+Lantern-off: Lantern-off
+Showerhead: Showerhead
+Aquarium: Aquarium
+Instagram: Instagram
+Siren: Siren
+PoliceSiren: Police Siren
+ComputerLinux: Computer Linux
+BrokenTV: Broken TV
+BrokenBrownTV: Broken Brown TV
+BrokenWoodenTV: Broken Wooden TV
+BrokenBlackTV: Broken Black TV
+BrokenIndustyTV: Broken Industy TV
+MinecraftClock: Minecraft Clock
+PoliceSiren: Police Siren
+OldComputer: Old Computer
+AntiqueComputer: Antique Computer
+C4Explosive: C4 Explosive
+GameCubeMonitor: GameCube Monitor
+NewGameCube: New GameCube
+BrokenComputer: Broken Computer
+WhiteClock: White Clock
+BlackClock: Black Clock
+Wii: Wii
+Playstation: Playstation
+XboxOne: Xbox One
+HotToaster: Hot Toaster
+
+#Misc
+GoldPot: GoldPot
+LavaBucket: Lava Bucket
+MilkBucket: Milk Bucket
+EmptyBucket: Empty Bucket
+WaterBucket: Water Bucket
+IronMailbox: Iron Mailbox
+OrangeSpaceHelmet: Orange Space Helmet
+BlackSpaceHelmet: Black Space Helmet
+FootballHelmet: Football Helmet
+Eye: Eye
+RedMushroom: Red Mushroom
+PineCone: Pine Cone
+CannonBall: Canno nBall
+HeavyCannonBall: Heavy Cannon Ball
+Target: Target
+Cactus: Cactus
+Facebook: Facebook
+Twitter: Twitter
+Youtube: Youtube
+Firecharge: Firecharge
+PortableGrill: Portable Grill
+Wilson-Castaway: Wilson-Castaway
+Mailbox: Mailbox
+Skull: Skull
+MissingTexture: Missing Texture
+GreenOre: Green Ore
+Sun&Moon: Moon
+MoltenCore: Molten Core
+Reddit: Reddit
+DiamondSteveHead: Diamond SteveHead
+GoldSteveHead: Gold SteveHead
+MushroomStem: Mushroom Stem
+BrownMushroom: Brown Mushroom
+CocoaBean: Cocoa Bean
+LightBrownMushroom: Light Brown Mushroom
+GreenOre: Green Ore
+BundleofBurntTorches: Bundle of Burnt Torches
+Skype: Skype
+TNTMinecart: TNT Minecart
+FurnaceMinecart: Furnace Minecart
+ChestMinecart: Ches tMinecart
+CommandBlockMinecart: Command Block Minecart
+WoodPlank: Wood Plank
+BirchLog: Birch Log
+DarkOakLog: DarkOak Log
+JungleLog: Jungle Log
+AcaciaLog: Acacia Log
+Leaves: Leaves
+OldLeaves: Old Leaves
+DarkLeaves: Dark Leaves
+BirchLeaves: Birch Leaves
+ShoppingBag: Shopping Bag
+WaterBomb: Water Bomb
+SidewaysTNT: Sideways TNT
+NuclearTNT: Nuclear TNT
+OmegaBomb: Omega Bomb
+FireBomb: Fire Bomb
+VaporizingBomb: Vaporizing Bomb
+SmokeBomb: Smoke Bomb
+FunkyBomb: Funky Bomb
+ClusterBomb: Cluster Bomb
+LightningBomb: Lightning Bomb
+ChemicalBomb: Chemical Bomb
+EnderBomb: Ender Bomb
+TimeBomb: Time Bomb
+C4: C4
+C4Bomb: C4 Bomb
+OrangeMarble: Orange Marble
+CyanMarble: Cyan Marble
+WhiteMarble: White Marble
+BlackMarble: Black Marble
+PurpleMarble: Purple Marble
+YellowMarble: Yellow Marble
+BlueMarble: Blue Marble
+GreenMarble: Green Marble
+RedMarble: Red Marble
+YellowToyBuildingBlock: Yellow Toy Building Block
+BlueToyBuildingBlock: Blue Toy Building Block
+RedToyBuildingBlock: Red Toy Building Block
+Venus: Venus
+Uranus: Uranus
+Mercury: Mercury
+Earth: Earth
+Mars: Mars
+Jupiter: Jupiter
+Saturn: Saturn
+Neptune: Neptune
+Sun: Sun
+
+#Alphabet
+A: A
+B: B
+C: C
+D: D
+E: E
+F: F
+G: G
+H: H
+I: I
+J: J
+K: K
+L: L
+M: M
+N: N
+O: O
+P: P
+Q: Q
+R: R
+S: S
+T: T
+U: U
+V: V
+W: W
+X: X
+Y: Y
+Z: Z
+One: 1
+Two: 2
+Three: 3
+Four: 4
+Five: 5
+Six: 6
+Seven: 7
+Eight: 8
+Nine: 9
+Zero: 0
+StoneArrowUp: Stone Arrow Up
+StoneArrowDown: Stone Arrow Down
+StoneArrowRight: Stone Arrow Right
+StoneArrowLeft: Stone Arrow Left
+StoneQuestion: Stone Question
+StoneExclamation: Stone Exclamation
+StoneDot: Stone Dot
+StoneSlash: Stone Slash
+StoneA: Stone A
+StoneB: Stone B
+StoneC: Stone C
+StoneD: Stone D
+StoneE: Stone E
+StoneF: Stone F
+StoneG: Stone G
+StoneH: Stone H
+StoneI: Stone I
+StoneJ: Stone J
+StoneK: Stone K
+StoneL: Stone L
+StoneM: Stone M
+StoneN: Stone N
+StoneO: Stone O
+StoneP: Stone P
+StoneQ: Stone Q
+StoneR: Stone R
+StoneS: Stone S
+StoneT: Stone T
+StoneU: Stone U
+StoneV: Stone V
+StoneW: Stone W
+StoneX: Stone X
+StoneY: Stone Y
+StoneZ: Stone Z
+Stone1: Stone 1
+Stone2: Stone 2
+Stone3: Stone 3
+Stone4: Stone 4
+Stone5: Stone 5
+Stone6: Stone 6
+Stone7: Stone 7
+Stone8: Stone 8
+Stone9: Stone 9
+StoneColon: Stone Colon
+StoneAface: Stone A face
+StoneUface: Stone U face
+StoneOface: Stone O face
+LetterBlockA: Letter Block A
+LetterBlockB: Letter Block B
+LetterBlockC: Letter Block C
+LetterBlockD: Letter Block D
+LetterBlockE: Letter Block E
+LetterBlockF: Letter Block F
+LetterBlockG: Letter Block G
+LetterBlockH: Letter Block H
+LetterBlockI: Letter Block I
+LetterBlockJ: Letter Block J
+LetterBlockK: Letter Block K
+LetterBlockL: Letter Block L
+LetterBlockM: Letter Block M
+LetterBlockN: Letter Block N
+LetterBlockO: Letter Block O
+LetterBlockP: Letter Block P
+LetterBlockQ: Letter Block Q
+LetterBlockR: Letter Block R
+LetterBlockS: Letter Block S
+LetterBlockT: Letter Block T
+LetterBlockU: Letter Block U
+LetterBlockV: Letter Block V
+LetterBlockW: Letter Block W
+LetterBlockX: Letter Block X
+LetterBlockY: Letter Block Y
+LetterBlockZ: Letter Block Z
+EmptyDisplay: EmptyDisplay
+DisplayA: Display A
+DisplayB: Display B
+DisplayC: Display C
+DisplayD: Display D
+DisplayE: Display E
+DisplayF: Display F
+DisplayG: Display G
+DisplayH: Display H
+DisplayI: Display I
+DisplayJ: Display J
+DisplayK: Display K
+DisplayL: Display L
+DisplayM: Display M
+DisplayN: Display N
+DisplayO: Display O
+DisplayP: Display P
+DisplayQ: Display Q
+DisplayR: Display R
+DisplayS: Display S
+DisplayT: Display T
+DisplayU: Display U
+DisplayV: Display V
+DisplayW: Display W
+DisplayX: Display X
+DisplayY: Display Y
+DisplayZ: Display Z
+Gray0: Gray 0
+Gray1: Gray 1
+Gray2: Gray 2
+Gray3: Gray 3
+Gray4: Gray 4
+Gray5: Gray 5
+Gray6: Gray 6
+Gray7: Gray 7
+Gray8: Gray 8
+Gray9: Gray 9
+
+#Interior
+PottedRosePlant: Potted Rose Plant
+PottedSalviaPlant: Potted Salvia Plant
+Toiletpaper: Toiletpaper
+Toiletroll: Toiletroll
+WinRARBooks: WinRAR Books
+Bookcase: Bookcase
+Bookshelf: Bookshelf
+PileofBooks: Pile of Books
+Chest: Chest
+Enderchest: Enderchest
+IronChest: Iron Chest
+MedicineChest: Medicine Chest
+Cabinet: Cabinet
+RedPresent: Red Present
+GreenPresent: Green Present
+BrownPresent: Brown Present
+Globe: Globe
+Plant: Plant
+Crafttable: Crafttable
+PottedDaffodilPlant: Potted Daffodil Plant
+PottedCamelliaPlant: Potted Camellia Plant
+Candle: Candle
+UnlitCandle: Unlit Candle
+OldBooks: Old Books
+PottedAzaleaPlant: Potted Azalea Plant
+WhiteVase: White Vase
+BrownVase: Brown Vase
+PinkVase: Pink Vase
+BlueVase: Blue Vase
+Furnace: Furnace
+Cauldron: Cauldron
+Aquarium: Aquarium
+WoodenCrate: Wooden Crate
+ChristmasPresent: Christmas Present
+Books: Books
+ChineseMingVase: Chinese Ming Vase
+JapaneseLantern: Japanese Lantern
+ChineseLantern: Chinese Lantern
+Globe: Globe
+PaperLantern: Paper Lantern
+BlueMailbox: Blue Mailbox
+Letterbox: Letterbox
+WhiteMailbox: White Mailbox
+BluePotionBottle: Blue Potion Bottle
+BlackPotionBottle: Black Potion Bottle
+GreenPotionBottle: Green Potion Bottle
+PurplePotionBottle: Purple Potion Bottle
+RedPotionBottle: Red Potion Bottle
+YellowPotionBottle: Yellow Potion Bottle
+
+#Color
+SkyBlue: Sky Blue
+LightSkyBlue: Light Sky Blue
+BabyBlue: Baby Blue
+BrightGreen: Bright Green
+Green: Green
+GrassGreen: Grass Green
+MediumGreen: Medium Green
+DarkGreen: Dark Green
+DarkYellow: Dark Yellow
+Yellow: Yellow
+LightOrange: Light Orange
+Orange: Orange
+OrangeRed: Orange Red
+Red: Red
+LightRed: Light Red
+DarkRed: Dark Red
+AzureBlue: Azure Blue
+Cyan: Cyan
+DarkishBlue: Darkish Blue
+Blue: Blue
+DarkCyan: Dark Cyan
+DarkBlue: Dark Blue
+Purple: Purple
+Pink: Pink
+Magenta: Magenta
+HotPink: Hot Pink
+RedPink: Red Pink
+Cream: Cream
+Mokka: Mokka
+Brown: Brown
+WhiteBlock: White Block
+LightGrey: Light Grey
+Grey: Grey
+Black: Black
+
+#Block
+LightBlueStainedClay: Light Blue Stained Clay
+BlueWool: Blue Wool
+BlackWool: Black Wool
+Podzol: Podzol
+Grass: Grass
+SnowGrass: Snow Grass
+Dirt: Dirt
+Mycellium: Mycellium
+RedSand: RedSand
+Sand: Sand
+Soulsand: Soulsand
+Netherrack: Netherrack
+MobSpawner: MobSpawner
+Netherbrick: Netherbrick
+QuartzOre: Quartz Ore
+Enderpearl: Enderpearl
+Endereye: Endereye
+EnderPortal: Ender Portal
+IceBlock: Ice Block
+Water: Water
+Lava: Lava
+EmeraldBlock: Emerald Block
+DiamondBlock: Diamond Block
+GoldBlock: Gold Block
+IronBlock: Iron Block
+EmeraldOre: Emerald Ore
+RedstoneOre: Redstone Ore
+DiamondOre: Diamond Ore
+IronOre: Iron Ore
+GoldOre: Gold Ore
+Cobblestone: Cobblestone
+Stone: Stone
+StoneBrick: Stone Brick
+SmoothStoneBrick: Smooth Stone Brick
+Chimney: Chimney
+Bedrock: Bedrock
+Brick: Brick
+QuartzBlock: Quartz Block
+SlimeBall: Slime Ball
+RedstoneLamp: Redstone Lamp
+Piston: Piston
+StickyPiston: Sticky Piston
+SlimePiston: Slime Piston
+HalfPiston: Half Piston
+Dispenser: Dispenser
+Dropper: Dropper
+RedstoneTorchTop: Redstone Torch Top
+RedstoneTorch: Redstone Torch
+RedstoneBlock: Redstone Block
+TNT: TNT
+BadTNT: Bad TNT
+DarkJukebox: Dark Jukebox
+Jukebox: Jukebox
+Sponge: Sponge
+MossyStoneBrick: Mossy Stone Brick
+HydratedFarmland: Hydrated Farmland
+Prismarine: Prismarine
+EnchantmentTable: Enchantment Table
+CocoaPod: Cocoa Pod
+CommandBlock: Command Block
+PrismarineBrick: Prismarine Brick
+HayBale: HayBale
+HayBaleTwoStripe: Hay Bale Two Stripe
+Glowstone: Glowstone
+Gravel: Gravel
+GreenWool: Green Wool
+GrayWool: Gray Wool
+Granite: Granite
+PolishedGranite: Polished Granite
+Diorite: Diorite
+PolishedDiorite: Polished Diorite
+Andesite: Andesite
+PolishedAndesite: Polished Andesite
+WetSponge: Wet Sponge
+LapisLazuliBlock: Lapis Lazuli Block
+LapisLazuliOre: Lapis Lazuli Ore
+Sandstone: Sandstone
+SmoothSandstone: Smooth Sandstone
+CyanWool: Cyan Wool
+BrownWool: Brown Wool
+LightBlueWool: Light Blue Wool
+LimeWool: Lime Wool
+MagentaWool: Magenta Wool
+OrangeWool: Orange Wool
+PinkWool: Pink Wool
+PurpleWool: Purple Wool
+RedWool: Red Wool
+LightGrayWool: LightGray Wool
+WhiteWool: White Wool
+YellowWool: Yellow Wool
+CrackedStoneBrick: Cracked Stone Brick
+MossyStoneBrick: Mossy Stone Brick
+StoneSlab: Stone Slab
+SnowBlock: Snow Block
+SlimeBlock: Slime Block
+Obsidian: Obsidian
+SmoothRedSandstone: Smooth Red Sandstone
+RedSandstone: Red Sandstone
+NoteBlock: Note Block
+PackedIceBlock: Packed Ice Block
+NetherPortal: Nether Portal
+EndStone: End Stone
+MossyCobblestone: Mossy Cobblestone
+Brick: Brick
+Clay: Clay
+CoalOre: Coal Ore
+CoalBlock: Coal Block
+DarkPrismarine: Dark Prismarine
+Dispenser: Dispenser
+Beacon: Beacon
+PillarQuartzBlock: Pillar Quartz Block
+ChiseledQuartzBlock: Chiseled Quartz Block
+SeaLantern: Sea Lantern
+DryFarmland: Dry Farmland
+CoarseDirt: Coarse Dirt
+RedstoneLamp(Off): Redstone Lamp(Off)
+HardenedClay: Hardened Clay
+BlackStainedClay: BlackStained Clay
+BlueStainedClay: BlueStained Clay
+BlackStainedClay: BlackStained Clay
+CyanStainedClay: CyanStained Clay
+BrownStainedClay: BrownStained Clay
+GreenStainedClay: GreenStained Clay
+LimeStainedClay: LimeStained Clay
+MagentaStainedClay: MagentaStained Clay
+OrangeStainedClay: OrangeStained Clay
+PinkStainedClay: PinkStained Clay
+RedStainedClay: RedStained Clay
+PurpleStainedClay: PurpleStained Clay
+WhiteStainedClay: WhiteStained Clay
+LightGrayStainedClay: LightGrayStained Clay
+ChiseledSandstone: Chiseled Sandstone
+AcaciaPlanks: Acacia Planks
+DarkOakPlanks: DarkOak Planks
+BirchPlanks: Birch Planks
+JunglePlanks: Jungle Planks
+SprucePlanks: Spruce Planks
+SpruceLog: Spruce Log
+
+#Mobs
+Herobrine: Herobrine
+HorseHead: Horse Head
+Guardian: Guardian
+Monkey: Monkey
+PolarBear: Polar Bear
+Penguin: Penguin
+Walrus: Walrus
+Tiger: Tiger
+Panda: Panda
+Cat: Cat
+AngryWolf: Angry Wolf
+Rabbit: Rabbit
+Koala: Koala
+ChineseDragon: Chinese Dragon
+Villagerhead: Villagerhead
+Pufferfish: Pufferfish
+WitherBoss: Wither Boss
+Snowhead: Snowhead
+SnowManHead: Snow Man Head
+Clownfish: Clownfish
+Bird: Bird
+Bee: Bee
+Enderdragon: Enderdragon
+HermitCrab: Hermit Crab
+RegularFish: Regular Fish
+SalmonFish: Salmon Fish
+Tortoise: Tortoise
+Seagull: Seagull
+Mole : Mole
+Fox : Fox
+Lion : Lion
+Platypus : Platypus
+Sloth : Sloth
+BrownBear : Brown Bear
+Elephant : Elephant
+
+#Game
+Beachball: Beachball
+Soccerball: Soccerball
+PinkBowlingball: Pink Bowlingball
+BlueBowlingball: Blue Bowlingball
+GreenBowlingball: Green Bowlingball
+Checkerboard: Checkerboard
+PokeBall: Poke Ball
+Glados: Glados
+Turret: Turret
+CompanionCube: Companion Cube
+WeightedCube: Weighted Cube
+WhiteDice: White Dice
+RedDice: Red Dice
+BlackDice: Black Dice
+PortalCore: Portal Core
+GreatBall: Great Ball
+UltraBall: Ultra Ball
+MasterBall: Master Ball
+Basketball: Basketball
+Masterchief-Halo: Masterchief-Halo
+Yoshi: Yoshi
+Batman: Batman
+Luigi: Luigi
+Mario: Mario
+SolvedRubik'sCube: SolvedRubik's Cube
+ScrambledRubik'sCube: ScrambledRubik's Cube
+ChessBoard: Chess Board
+SafariBall: Safari Ball
+PremierBall: Premier Ball
+WarpPipe: Warp Pipe
+Goomba: Goomba
+OrangeCore: Orange Core
+GreenCore: Green Core
+OneStarDragonBall: One Star Dragon Ball
+TwoStarDragonBall: Two Star Dragon Ball
+ThreeStarDragonBall: Three Star Dragon Ball
+FourStarDragonBall: Four Star Dragon Ball
+FiveStarDragonBall: Five Star Dragon Ball
+SixStarDragonBall: Six Star Dragon Ball
+SevenStarDragonBall: Seven Star Dragon Ball
+Dovakhin: Dovakhin
+BlueShyGuy: Blue Shy Guy
+Bomberman: Bomberman
+PotatOS: PotatOS
+AngerCore: Anger Core
+AdventureCore: Adventure Core
+HAL9000Core: HAL9000 Core
+HelloKittyCore: HelloKitty Core
+
+#Character
+Zoidberg: Zoidberg
+DarthVader: Darth Vader
+Ewok: Ewok
+Mangle: Mangle
+Zelda: Zelda
+FreddyFazbear: Freddy Fazbear
+Bonnie: Bonnie
+Chica: Chica
+Foxy: Foxy
+Marionette: Marionette
+Mangle: Mangle
+Link: Link
+Stitch: Stitch
+Groot: Groot
+StarLord: Star Lord
+BobaFett: Boba Fett
+StormTrooper: Storm Trooper
+CloneTrooper: Clone Trooper
+R2D2: R2D2
+Patrick: Patrick
+Spongebob: Spongebob
+IceKing: Ice King
+Jake: Jake
+Finn: Finn
+Sonic: Sonic
+Metaknight: Metaknight
+Ness: Ness
+Wario: Wario
+PrincessPeach: Princess Peach
+FoxMcCloud: Fox Mc Cloud
+Bowser: Bowser
+Mario: Mario
+Luigi: Luigi
+Yoshi: Yoshi
+AshKetchum: Ash Ketchum
+Samus: Samus
+Ganondorf: Ganondorf
+ToyBonnie: Toy Bonnie
+ToyFreddy: Toy Freddy
+ToyChica: Toy Chica
+ToyMangle: Toy Mangle
+BalloonBoy: BalloonBoy
+Vegetta: Vegetta
+Masterchief: Masterchief
+Bender: Bender
+Wheatley: Wheatley
+Wilson: Wilson
+Masterchief2: Masterchief2
+Batman: Batman
+Joker: Joker
+Bender: Bender
+CaptainAmerica: Captain America
+Deadpool: Deadpool
+Doge: Doge
+Kenny: Kenny
+IronMan: Iron Man
+Thor: Thor
+CaptainAmerica: Captain America
+Steve: Steve
+Toothless: Toothless
+BionicleHahliInika: Bionicle Hahli Inika
+BionicleJallerInika: Bionicle Jaller Inika
+BionicleNujuTuraga: Bionicle Nuju Turaga
+BionicleNujuHordika: Bionicle Nuju Hordika
+BionicleWhenuaTuraga: Bionicle Whenua Turaga
+BionicleWhenuaHordika: Bionicle Whenua Hordika
+BionicleOnewaTuraga: Bionicle Onewa Turaga
+BionicleOnewaHordika: Bionicle Onewa Hordika
+BionicleMatauTuraga: Bionicle Matau Turaga
+BionicleMatauHordika: Bionicle Matau Hordika
+BionicleNokamaTuraga: Bionicle Nokama Turaga
+BionicleNokamaHordika: Bionicle Nokama Hordika
+BionicleNujuMetru: Bionicle Nuju Metru
+BionicleWhenuaMetru: Bionicle Whenua Metru
+BionicleOnewaMetru: Bionicle Onewa Metru
+BionicleMatauMetru: Bionicle Matau Metru
+BionicleNokamaMetru: Bionicle Nokama Metru
+BionicleVakamaTuraga: Bionicle Vakama Turaga
+BionicleVakamaHordika: Bionicle Vakama Hordika
+BionicleVakamaMetru: Bionicle Vakama Metru
+BionicleKopakaOkoto: Bionicle Kopaka Okoto
+BionicleOnuaOkoto: Bionicle Onua Okoto
+BioniclePohatuOkoto: Bionicle Pohatu Okoto
+BionicleLewaOkoto: Bionicle Lewa Okoto
+BionicleGaliOkoto: Bionicle Gali Okoto
+BionicleTahuOkoto: Bionicle Tahu Okoto
+BionicleOnuaNuva: Bionicle Onua Nuva
+BioniclePohatuNuva: Bionicle Pohatu Nuva
+BionicleLewaNuva: Bionicle Lewa Nuva
+BionicleGaliNuva: Bionicle Gali Nuva
+BionicleKopakaMata: Bionicle Kopaka Mata
+BionicleEkimuMaskMaker: Bionicle Ekimu Mask Maker
+
+#Pokemon
+Magikarp: Magikarp
+Unfezant: Unfezant
+Hydreigon: Hydreigon
+Eelektross: Eelektross
+Swanna: Swanna
+Magmar: Magmar
+Liepard: Liepard
+Lilligant: Lilligant
+Bisharp: Bisharp
+Gyarados: Gyarados
+Beartic: Beartic
+Scrafty: Scrafty
+Darmanitan: Darmanitan
+Akew: Akew
+NurseJoy: Nurse Joy
+Patrat: Patrat
+Throh: Throh
+Sawk: Sawk
+Zebstrika: Zebstrika
+Charmeleon: Charmeleon
+Sylveon: Sylveon
+Leafeon: Leafeon
+Glaceon: Glaceon
+Umbreon: Umbreon
+Espeon: Espeon
+Flareon: Flareon
+Vaporeon: Vaporeon
+Jolteon: Jolteon
+Pikachu: Pikachu
+Charmander: Charmander
+Caterpie: Caterpie
+Ash: Ash
+Xerneas: Xerneas
+Delphox: Delphox
+Chesnaught: Chesnaught
+Keldeo: Keldeo
+Kyurem: Kyurem
+Zekrom: Zekrom
+Reshiram: Reshiram
+Scraggy: Scraggy
+Samurott: Samurott
+Emboar: Emboar
+Serperior: Serperior
+Victini: Victini
+Shaymin: Shaymin
+Darkrai: Darkrai
+Giratina: Giratina
+Palkia: Palkia
+Dialga: Dialga
+Empoleon: Empoleon
+Piplup: Piplup
+Infernape: Infernape
+Torterra: Torterra
+Deoxys: Deoxys
+Rayquaza: Rayquaza
+Groudon: Groudon
+Kyogre: Kyogre
+Latios: Latios
+Latias: Latias
+Salamence: Salamence
+Blaziken: Blaziken
+Sceptile: Sceptile
+Ho-Oh: Ho-Oh
+Lugia: Lugia
+Suicune: Suicune
+Entei: Entei
+Raikou: Raikou
+Typhlosion: Typhlosion
+Meganium: Meganium
+Mewtwo: Mewtwo
+Dragonite: Dragonite
+Blastoise: Blastoise
+Venusaur: Venusaur
+Charizard: Charizard
+Lucario: Lucario
+Feraligatr: Feraligatr
+PokemonDarkSymbol: Pokemon Dark Symbol
+PokemonFairySymbol: Pokemon Fairy Symbol 
+PokemonFireSymbol: Pokemon Fire Symbol
+PokemonWaterSymbol: Pokemon Water Symbol
+PokemonPsychicSymbol: Pokemon Psychic Symbol
+PokemonElectricSymbol: Pokemon Electric Symbol
+PokemonLeafSymbol: Pokemon Leaf Symbol
+
+#Easter
+ChocolateEgg: Chocolate Egg
+BlueEasterEgg: Blue Easter Egg
+GreenEasterEgg: Green Easter Egg
+PinkEasterEgg: Pink Easter Egg
+WhiteEasterEgg: White Easter Egg
+EasterRabbitFront: Easter Rabbit Front
+WhiteBlueEasterEgg: White Blue Easter Egg
+RedEasterEgg: Red Easter Egg
+RainbowEasterEgg: Rainbow Easter Egg
+PinkEasterEgg: Pink Easter Egg
+RedPinkEasterEgg: Red Pink Easter Egg
+OrangeEasterEgg: Orange Easter Egg
+VioletEasterEgg: Violet Easter Egg
+SunflowerEasterEgg: Sunflower Easter Egg
+CreeperEasterEgg: Creeper Easter Egg
+YellowEasterEgg: Yellow Easter Egg
+LightYellowEasterEgg: Light Yellow Easter Egg
+SimpleBlueEasterEgg: Simple Blue Easter Egg
+EasterRabbitBack: Easter Rabbit Back
+EasterBasket: Easter Basket
