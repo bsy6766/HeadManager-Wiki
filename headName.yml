@@ -90,6 +90,27 @@ MountainDew: Mountain Dew
 Fanta: Fanta
 MelloYello: Mello Yello
 Sprite: Sprite
+RedJar: Red Jar
+GreenJar: Green Jar
+RaspberryCake: Raspberry Cake
+RaspberryChocolateCake: Raspberry hocolate Cake
+OrangeJar: Orange Jar
+YellowJar: Yellow Jar
+PurpleJar: Purple Jar
+RedJar: Red Jar
+SprinkledCake: Sprinkled Cake 
+Burrito: Burrito 
+Soda: Soda 
+BlueFoodBowl: Blue Food Bowl 
+RedFoodBowl: Red Food Bowl 
+Cocoa: Cocoa 
+Cup: Cup 
+BreadLoaf: Bread Loaf 
+EnderCupcake: Ender Cupcake 
+PinkCupcake: Pink Cupcake 
+Doritos: Doritos 
+Juicebox: Juicebox 
+LunchBox: Lunch Box 
 
 #Devices
 Clock: Clock
@@ -607,6 +628,7 @@ BirchPlanks: Birch Planks
 JunglePlanks: Jungle Planks
 SprucePlanks: Spruce Planks
 SpruceLog: Spruce Log
+EnchantingTable: Enchanting Table
 
 #Mobs
 Herobrine: Herobrine
@@ -809,6 +831,39 @@ Guard10: Guard 10
 Guard11: Guard 11
 Ultron: Ultron
 UltronDrone: Ultron Drone
+ToyChica: Toy Chica 
+PhantomMangle: Phantom Mangle 
+ToyFreddy: Toy Freddy 
+PhantomChica: Phantom Chica 
+PhantomBalloonBoy: Phantom Balloon Boy 
+ToyBonnie: Toy Bonnie 
+CarlTheCupcake(FNAF): Carl The Cupcake (FNAF)
+CarlTheCupcake: Carl The Cupcake 
+Springtrap: Springtrap 
+ToyFreddyMask: Toy Freddy Mask 
+ToyChicaMask: Toy Chica Mask 
+ToyBonnieMask: Toy Bonnie Mask 
+FreddyPlush: Freddy Plush 
+BonniePlush: Bonnie Plush 
+BalloonBoyMask: Balloon Boy Mask 
+DeskFan: Desk Fan 
+CandyTheCatFNAFFAN: Candy The Cat FNAFFAN 
+ChicaPlush: Chica Plush 
+MangleMask: Mangle Mask 
+NightmareBonnie: Nightmare Bonnie 
+FoxyPlush: Foxy Plush 
+Mangle/ToyFoxy: Mangle/ToyFoxy 
+WitheredFreddy: Withered Freddy 
+WitheredBonnie: Withered Bonnie 
+WitheredFoxy: Withered Foxy 
+TheMarionette: The Marionette 
+ThePurpleGuy: The Purple Guy 
+GoldenFreddy: Golden Freddy 
+PhantomFreddy: Phantom Freddy 
+PhantomChica: Phantom Chica 
+PhantomFoxy: Phantom Foxy 
+PhantomBalloonBoy: Phantom Balloon Boy 
+PhantomMangle: Phantom Mangle 
 
 #Pokemon
 Magikarp: Magikarp
