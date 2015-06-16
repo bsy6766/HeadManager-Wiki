@@ -12,5 +12,5 @@
 ### http://www.spigotmc.org/resources/head-manager.4377/
 
 ## How to report bug / issues
-### Post comment in HeadManager discussion post at Spigot website
-### Open an issue in this repo
+Post comment in HeadManager discussion post at Spigot website<br>
+Open an issue in this repo<br>
