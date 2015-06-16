@@ -14,21 +14,7 @@
 # But it can cause 100% droprate for well enchanted tool or weapon.
 #
 # Droprate equation
-#
-# Final droprate = (base_rate + SUM(enchant_bonus * enchantment level / 100)) 
-#					* droprate(entity, block, etc);
-# Ex) Scenario: Killed zombie with unbreaking 3 and sharpness 5 diamond sword,
-#				with zombie_droprate: 0.1, unbreaking_bonus: 10.0, 
-#				sharpness_bonus: 20.0, base_rate: 0 
-#		Final Zombie head droprate
-#			= (0 + (10 * 3 / 100) + (20 * 5 / 100)) * 0.1
-#			= (0 + 0.3 + 1) * 0.1
-#			= 1.3 * 0.1
-#			= 0.13 (Raised from 0.1)
-#		
-#		What's the difference between 0.13 and 0.1?
-#	 		Even the amount of the number raised with enchant bonus is low,
-#			it actually changes the total amount of head drop a lot.
+# https://github.com/bsy6766/HeadManager-Wiki/wiki/Drop-Calculation
 #
 #######################################################################
 
@@ -45,27 +31,61 @@ drop_head_from_spawner_mob: false
 # base rate
 base_rate: 0
 
-# stable tool bonus
+# Enchantments
+# Global(Applies to weapon, tool, bow)
 unbreaking_bonus: 10.0
 
-# looting bonus
+# Weapon
 looting_bonus: 10.0
-
-# undead bonus
 smite_bonus: 10.0
-
-# bug bonus
 arthropods_bonus: 10.0
-
-# damange bonus
 sharpness_bonus: 10.0
+fire_aspect_bonus: 10.0
 
-# block bonus
+# Tool
 fortune_bonus: 10.0
 silktouch_bonus: 10.0
 efficiency_bonus: 10.0
 
-#player
+# Bow
+power_bonus: 5.0
+infinity_bonus: 10.0
+flame_bonus: 10.0
+punch_bonus: 10.0
+
+# Potion as weapon (best weapon to AOE in mob grinder to farm head.) 
+instant_healing: 2.5
+instant_harming: 2.5
+
+# Player Buffs and Monster Debuffs
+
+# Monster/Player(pvp) Debuff
+blindness: 1.0
+confusion: 1.0
+hunger: 1.0
+weakness: 1.0
+wither: 1.0
+slow: 1.0
+slow_digging: 1.0
+poison: 1.0
+
+# Player Buff
+absorption: 1.0 
+damage_resistance: 1.0
+fast_digging: 1.0
+fire_resistance: 1.0
+health_boost: 1.0
+increase_damage: 1.0
+invisibility: 1.0
+jump: 1.0
+regeneration: 1.0
+night_vision: 1.0
+saturation: 1.0 
+speed: 1.0
+water_breathing: 1.0
+
+# Droprates
+# Player
 player_droprate: 30.0
 
 #defualt mob droprate

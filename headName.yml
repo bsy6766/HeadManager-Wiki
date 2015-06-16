@@ -629,6 +629,7 @@ JunglePlanks: Jungle Planks
 SprucePlanks: Spruce Planks
 SpruceLog: Spruce Log
 EnchantingTable: Enchanting Table
+MapleLog: Maple Log
 
 #Mobs
 Herobrine: Herobrine
@@ -716,6 +717,44 @@ AngerCore: Anger Core
 AdventureCore: Adventure Core
 HAL9000Core: HAL9000 Core
 HelloKittyCore: HelloKitty Core
+ToyChica: Toy Chica 
+PhantomMangle: Phantom Mangle 
+ToyFreddy: Toy Freddy 
+PhantomChica: Phantom Chica 
+PhantomBalloonBoy: Phantom Balloon Boy 
+ToyBonnie: Toy Bonnie 
+CarlTheCupcake(FNAF): Carl The Cupcake (FNAF)
+CarlTheCupcake: Carl The Cupcake 
+Springtrap: Springtrap 
+ToyFreddyMask: Toy Freddy Mask 
+ToyChicaMask: Toy Chica Mask 
+ToyBonnieMask: Toy Bonnie Mask 
+FreddyPlush: Freddy Plush 
+BonniePlush: Bonnie Plush 
+BalloonBoyMask: Balloon Boy Mask 
+DeskFan: Desk Fan 
+CandyTheCatFNAFFAN: Candy The Cat FNAFFAN 
+ChicaPlush: Chica Plush 
+MangleMask: Mangle Mask 
+NightmareBonnie: Nightmare Bonnie 
+FoxyPlush: Foxy Plush 
+Mangle/ToyFoxy: Mangle/ToyFoxy 
+WitheredFreddy: Withered Freddy 
+WitheredBonnie: Withered Bonnie 
+WitheredFoxy: Withered Foxy 
+TheMarionette: The Marionette 
+ThePurpleGuy: The Purple Guy 
+GoldenFreddy: Golden Freddy 
+PhantomFreddy: Phantom Freddy 
+PhantomChica: Phantom Chica 
+PhantomFoxy: Phantom Foxy 
+PhantomBalloonBoy: Phantom Balloon Boy 
+PhantomMangle: Phantom Mangle 
+Clyde: Clyde
+Pinky: Pinky
+Blinky: Blinky
+Inky: Inky
+Pacman: Pacman
 
 #Character
 Zoidberg: Zoidberg
@@ -831,39 +870,28 @@ Guard10: Guard 10
 Guard11: Guard 11
 Ultron: Ultron
 UltronDrone: Ultron Drone
-ToyChica: Toy Chica 
-PhantomMangle: Phantom Mangle 
-ToyFreddy: Toy Freddy 
-PhantomChica: Phantom Chica 
-PhantomBalloonBoy: Phantom Balloon Boy 
-ToyBonnie: Toy Bonnie 
-CarlTheCupcake(FNAF): Carl The Cupcake (FNAF)
-CarlTheCupcake: Carl The Cupcake 
-Springtrap: Springtrap 
-ToyFreddyMask: Toy Freddy Mask 
-ToyChicaMask: Toy Chica Mask 
-ToyBonnieMask: Toy Bonnie Mask 
-FreddyPlush: Freddy Plush 
-BonniePlush: Bonnie Plush 
-BalloonBoyMask: Balloon Boy Mask 
-DeskFan: Desk Fan 
-CandyTheCatFNAFFAN: Candy The Cat FNAFFAN 
-ChicaPlush: Chica Plush 
-MangleMask: Mangle Mask 
-NightmareBonnie: Nightmare Bonnie 
-FoxyPlush: Foxy Plush 
-Mangle/ToyFoxy: Mangle/ToyFoxy 
-WitheredFreddy: Withered Freddy 
-WitheredBonnie: Withered Bonnie 
-WitheredFoxy: Withered Foxy 
-TheMarionette: The Marionette 
-ThePurpleGuy: The Purple Guy 
-GoldenFreddy: Golden Freddy 
-PhantomFreddy: Phantom Freddy 
-PhantomChica: Phantom Chica 
-PhantomFoxy: Phantom Foxy 
-PhantomBalloonBoy: Phantom Balloon Boy 
-PhantomMangle: Phantom Mangle 
+EyeOfSauron: Eye Of Sauron
+SamwiseGamgee: Samwise Gamgee
+FrodoBaggins: Frodo Baggins
+GollumSmeagol: Gollum Smeagol
+Legolas: Legolas
+BilboBaggins: Bilbo Baggins
+GandalfTheWhite: Gandalf The White
+GandalfTheGrey: Gandalf The Grey
+Sauron: Sauron
+Gimli: Gimli
+Boromir: Boromir
+Strider: Strider
+Aragorn: Aragorn
+Pippin: Pippin
+Merry: Merry
+Faramir: Faramir
+Elrond: Elrond
+Thranduil: Thranduil
+Eowyn: Eowyn
+Dernhelm: Dernhelm
+SarumanTheWhite: Saruman The White
+RadagastTheBrown: Radagast The Brown 
 
 #Pokemon
 Magikarp: Magikarp
