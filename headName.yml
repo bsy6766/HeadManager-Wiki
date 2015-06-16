@@ -111,6 +111,7 @@ PinkCupcake: Pink Cupcake
 Doritos: Doritos 
 Juicebox: Juicebox 
 LunchBox: Lunch Box 
+Coffee: Coffee
 
 #Devices
 Clock: Clock
@@ -452,6 +453,19 @@ GreenPotionBottle: Green Potion Bottle
 PurplePotionBottle: Purple Potion Bottle
 RedPotionBottle: Red Potion Bottle
 YellowPotionBottle: Yellow Potion Bottle
+Keypad: Keypad
+RedCandle: Red Candle
+UnlitRedCandle: Unlit Red Candle
+LockedChest: Locked Chest
+DarkOakWoodStool: Dark Oak Wood Stool
+JungleWoodStool: Jungle Wood Stool
+OakWoodStool: Oak Wood Stool
+HalfChest: Half Chest
+StopSign: Stop Sign
+BlueBathroomTissue: Blue Bathroom Tissue
+TissueBox: Tissue Box
+Minecart: Minecart
+StackOfPapers: Stack Of Papers
 
 #Color
 SkyBlue: Sky Blue
@@ -755,6 +769,20 @@ Pinky: Pinky
 Blinky: Blinky
 Inky: Inky
 Pacman: Pacman
+N64: N64
+ShovelKnight: Shovel Knight
+Waluigi: Waluigi
+PoisonousTrap: Poisonous Trap
+GravitationalTrap: Gravitational Trap
+PulapkaOgnista: Pulapka Ognista
+LegendOfZeldaJar: Legend Of Zelda Jar
+OneUpMushroom: One Up Mushroom
+PoisonMushroom: Poison Mushroom
+BastionTheKid: Bastion The Kid
+BioShockLittleSister: Bio Shock Little Sister
+AliceTheMadnessReturn: Alice The Madness Return
+EzioAuditoreDaFirenze: Ezio Auditore Da Firenze
+IssacClarke: Issac Clarke
 
 #Character
 Zoidberg: Zoidberg
